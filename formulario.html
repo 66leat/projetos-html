@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agendamento Elizabeth Magalhães</title>
+</head>
+<body>
+    <h1 style="font-size: 0.7cm;">AGENDAMENTO</h1>
+    <form method="GET" action="teste.jsp">
+        Nome:<input type="text" name="nome">
+<br>
+        E-mail:<input type="email"> 
+<br>
+        <input type="radio" name="parteDoDia" value="manhã"> Manhã
+        <input type="radio" name="parteDoDia" value="tarde"> Tarde 
+        <input type="radio" name="parteDoDia" value="noite"> Noite
+<br>
+        Qual procedimento? <input type="checkbox" name="megaHair"> Mega Hair
+        <input type="checkbox" name="alinhamento" value="sim"> Alinhamento 
+        <input type="checkbox" name="corte" value="sim"> Corte
+        <input type="checkbox" name="escovaComum" value="sim"> Escova Comum 
+        <input type="checkbox" name="outro" value="sim"> Outro
+<br> 
+        Caso tenha selecionado "outro" acima, escreva abaixo o procedimento desejado
+<br>
+        <input type="textarea" rows="4" cols="4">
+<br>
+        Forma de pagamento:
+             <select name="pagamento">
+                <option> Pix </option>
+                <option> Cartão </option>
+                <option> Dinheiro </option>
+             </select>
+<br>
+        Data: <input type="date" name="data">
+<br>        
+        <input type="submit">    
+</form>
+
+
+
+</body>
+
+
+
+
+
+</html>
